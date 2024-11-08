@@ -2328,6 +2328,10 @@ def getResponse(connectionId, jsonBody):
                     msg = translate_text(chat, text) 
                 elif conv_type == "grammar":
                     msg = check_grammer(chat, text)  
+
+                # msg = traslation(chat, msg, "English", "Korean")
+
+              
                                     
                 # token counter
                 if debugMessageMode=='true':
